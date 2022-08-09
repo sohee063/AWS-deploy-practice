@@ -4,6 +4,7 @@ files:
   - source: /
     # 아래 destination은 여러분이 해당 리포지토리를 클론한 위치로 설정해주세요.
     destination: /Users/sohee/Desktop/fe-sprint-practice-deploy
+    file_exists_behavior: OVERWRITE
 
 hooks:
   ApplicationStop:
